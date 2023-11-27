@@ -23,6 +23,12 @@ export default function RootLayout({ children,
     
       <body className={inter.className}>
 
+      <div
+  className="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
         <Lateralheader/>
    
         
