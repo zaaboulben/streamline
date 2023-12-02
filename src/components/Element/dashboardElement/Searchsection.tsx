@@ -42,7 +42,7 @@ export default function Searchsection() {
   const dataRef = useRef(null);
 
   const getdata = async () => {
-    const InstagramUrl = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_USER_TOKEN}`;
+    const InstagramUrl=`https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_USER_TOKEN}`
     const response = await axios.get(InstagramUrl);
     setgetDATA(response.data.data);
     dataRef.current = response.data;

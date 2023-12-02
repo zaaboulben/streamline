@@ -3,6 +3,7 @@ import DataSearch from '@/components/Element/DataSearch';
 import Searchsection from '@/components/Element/dashboardElement/Searchsection';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image'
+import Link from 'next/link';
 import Script from 'next/script'
 import { use, useEffect } from 'react';
 
@@ -75,7 +76,7 @@ export default function Home() {
 
        <Searchsection />
         <DataSearch/>
-
+        <Link  href={'app/politiqueDeconfidantialite'} ></Link>
     </main>
   )
 }
