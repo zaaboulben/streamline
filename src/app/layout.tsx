@@ -21,14 +21,14 @@ export default function RootLayout({ children,
   return (
     <html lang="en">
     
-      <body className={inter.className}>
-
+      <body className='inline-flex  w-screen h-screen ' >
+{/* 
       <div
   className="fb-like"
   data-share="true"
   data-width="450"
   data-show-faces="true">
-</div>
+</div> */}
         <Lateralheader/>
    
         
